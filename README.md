@@ -22,5 +22,4 @@ NVIDIA "Valve.Steam","Discord.Discord","Nvidia.GeForceExperience","ElectronicArt
 
 INTEL "Valve.Steam","Discord.Discord","ElectronicArts.EADesktop","Ubisoft.Connect","Intel.IntelDriverAndSupportAssistant","EpicGames.EpicGamesLauncher","RockstarGames.Launcher" | ForEach-Object { winget install --id $_ -e }
 
-
-3. ENJOY :)
+3. DONE :)
