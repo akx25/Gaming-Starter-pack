@@ -1,0 +1,23 @@
+# Gaming-Starter-pack
+
+Install all the gaming software you need using WinGet or Linux terminal!
+
+### Included software
+
+- Steam
+- Discord
+- AMD Software: Adrenalin Edition
+- NVIDIA GeForce Experience
+- Intel Driver & Support Assistant
+- EA Launcher
+- Ubisoft Connect
+- Epic Games Launcher
+
+## 1. Open PowerShell
+
+## 2. Copy & paste the command for your GPU
+
+### AMD
+
+```powershell
+"Valve.Steam","Discord.Discord","AdvancedMicroDevices.AMDSoftwareAdrenalinEdition","EpicGames.EpicGamesLauncher","ElectronicArts.EADesktop","Ubisoft.Connect" | ForEach-Object { winget install --id $_ -e }
